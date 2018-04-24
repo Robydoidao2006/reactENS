@@ -1,0 +1,41 @@
+
+.nav-tabs li a {
+    color: #777;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+.navbar {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 3px;
+    opacity: 0.9;
+    /* text-transform: lowercase; */
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+/* changes words color on hover */
+.navbar-nav li a:hover {
+    color: red !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: blue!important;
+}
