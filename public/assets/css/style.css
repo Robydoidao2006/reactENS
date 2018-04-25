@@ -139,11 +139,7 @@ margin-top: 20px;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color:black;
 }
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
-}
+
 .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
@@ -204,16 +200,13 @@ margin-top: 20px;
   width:100%;
 }
 
-/* ////// */
-/* navbar */
-/* ////// */
+
 
 .nav-tabs li a {
     color: #777;
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
 }
-
 .navbar {
     font-family: 'Roboto Slab', serif;
     margin-bottom: 0;
@@ -260,43 +253,6 @@ margin-top: 20px;
     filter: grayscale(100%);
 }
 
-/* ////// */
-/* footer */
-/* ////// */
-
-footer {
-    background-color: #2d2d30;
-    color: red;
-    color: #f5f5f5;
-    padding: 32px;
-}
-footer a {
-    color: #f5f5f5;
-}
-footer a:hover {
-    color: #777;
-    text-decoration: none;
-}
-.form-control {
-    border-radius: 0;
-    font-family: 'Roboto Slab', serif;
-    font-size: 14px;
-}
-textarea {
-    resize: none;
-}
-#followUs h3 {
-  color: white;
-}
-
-#quickLinks h3 {
-  color: white;
-} #aboutUs h3 {
-  color: white;
-}
-/* ////////// */
-/* New stuff  */
-/* ////////// */
 
 .img-nurse{
     width: 40%;
@@ -318,16 +274,4 @@ width: 20%;
 .file{
     margin-top:20px;
 }
-ul {
-  list-style-type: none;
-}
-.col-sm-4 p {
-  color: black;
-  font-size: 16px;
-  text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
-}
-.col-md-4 p {
-  color: black;
-  font-size: 16px;
-  text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
-}
+

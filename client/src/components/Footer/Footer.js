@@ -13,6 +13,7 @@ const Footer = () => (
                         <p>Somthing here</p>
                         <p>Somthing here</p>
 				</div>
+				<div className="push"></div>
 				<div className="col-md-4" id="quickLinks">
                     <ul>
                         <li><h3>Quick Links</h3></li>

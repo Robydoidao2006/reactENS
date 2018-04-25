@@ -1,41 +1,89 @@
 
+
+/* .container-fluid {
+    background: #2d2d30;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+} */
+
+
+/* changes logo size and */
+.navbar-brand{
+    width:40px;
+    height: 40px;
+    padding: 0px;
+    margin: 5px 10px 0px 10px;
+}
+
 .nav-tabs li a {
     color: #777;
-    font-family: 'Roboto Slab', serif;
-    font-size: 14px;
 }
 
 .navbar {
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 0;
-    background-color: #2d2d30;
+    background: #2d2d30;
     border: 0;
     font-size: 14px !important;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     opacity: 0.9;
-    /* text-transform: lowercase; */
-}
+    width: 100%;
+} 
+
+/* changes words color of navbar */
 .navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
+    color: white !important;
 }
 /* changes words color on hover */
 .navbar-nav li a:hover {
-    color: red !important;
+    color: #777 !important;
 }
+/* changes the current active button color */
 .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
+    color: #777 !important;
+    background: white !important;
 }
+/* changes the button dropdown menu once in table mode */
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
 .open .dropdown-toggle {
-    color: #fff;
+    color: white;
     background-color: #555 !important;
 }
+
+/* changes color of words on dropdown menu */
 .dropdown-menu li a {
-    color: #000 !important;
+    color: white !important;
+    background: #777;
 }
+/* changes color of background on dropdown hover menu in table mode */
 .dropdown-menu li a:hover {
-    background-color: blue!important;
+    background-color: white !important;
+    opacity: 0.7;
 }
+
+.dropdown-menu{
+    padding: 0px;
+}
+
+
+/* 600px or less for  phones. */
+
+/* @media only screen and (min-width: 600px) {
+    .navbar{
+        font-size: 10px !important;
+
+    }
+}     */
+
+/* 768px or less for tablets */
+
+
+/* @media only screen and (max-width: 768px) {
+    .navbar{
+        font-size: 10px !important;
+          
+    }
+}   */
+
+
