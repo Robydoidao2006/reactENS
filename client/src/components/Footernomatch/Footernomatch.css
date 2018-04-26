@@ -1,6 +1,6 @@
 
 footer {
-    background-color: #2d2d30;
+    background:#2d2d30;
     padding: 20px;
     width: 100%;
 }
@@ -36,19 +36,16 @@ ul{
     font-size: 12px;   
 }
 
-/* 600px or less for tables and phones. */
+
 @media only screen and (max-width: 768px) {
     .col-md-4{
         width:100%;
         align-content: center;
     }
-   
-}   
+    
+}
+
 
 /* NEED TO FIX the footer won't stick to the botton 
 withouth messing up the mobile/tablet view angle when geting
-the 404 error. 
-
-for now the only solution was to create a entire foorter
- costume made for the NoMatch page.
-*/
+the 404 error. */

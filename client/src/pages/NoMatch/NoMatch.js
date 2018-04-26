@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
 import Wrapper from "../../components/Wrapper";
-import Footer from "../../components/Footer";
+import Footernomatch from "../../components/Footernomatch";
 
 
 
@@ -20,7 +20,7 @@ const NoMatch = () => (
         </Jumbotron>
       </Col>
     </Row>
-    <Footer />
+  <Footernomatch /> 
   </Wrapper>
 );
 

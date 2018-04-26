@@ -20,7 +20,7 @@ const App = () => (
         <Route exact path="/" component={}/>
         <Route exact path="/" component={}/>
         <Route exact path="/" component={}/> */}
-        <Route component={NoMatch} />
+        <Route component={NoMatch}/>
       </Switch>
     </div>
   </Router>

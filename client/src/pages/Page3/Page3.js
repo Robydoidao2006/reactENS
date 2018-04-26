@@ -1,10 +1,9 @@
 import React, { Component} from "react";
 import { Link } from "react-router-dom";
-import Nav from "../../components/Nav";
-import Footer from "../../components/Footer";
 import Wrapper from "../../components/Wrapper";
-import Carousel from"../../components/Carousel";
-import Bio from "../../components/Bio";
+import Nav from "../../components/Nav";
+import Jumbotron from "../../components/Jumbotron";
+import Footer from "../../components/Footer";
 
 
 
@@ -18,10 +17,8 @@ render() {
    
         <Wrapper>
             <Nav />
-            <Carousel />
-            <Bio />
-            {/* <Contact /> */}
-          <Footer /> 
+
+          <Footer />
         </Wrapper>
         
     );
@@ -30,4 +27,4 @@ render() {
 }
 
 
-export default Home;
+export default Page3;

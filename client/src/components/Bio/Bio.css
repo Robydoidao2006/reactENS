@@ -21,7 +21,18 @@ h3 {
   
 .bioPic{
     float:left;
-    margin: 0px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     width: 200px;
     height: 200px;
+  }
+
+@media only screen and (max-width: 600px) {
+    .bioPic{
+        width: 150px;
+        height: 150px;
+
+    }
+    /* .bioText{
+      margin-top: 20px;
+    } */
   }
