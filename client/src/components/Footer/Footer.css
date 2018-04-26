@@ -3,11 +3,16 @@ footer {
     background-color: #2d2d30;
     padding: 20px;
     width: 100%;
+    /* position: relative;
+    bottom: 0px;  */
 }
 
-footer a {
+footer a  {
     color: white;
+}
 
+footer h3 {
+    color: white;
 }
 
 footer a:hover {
@@ -30,14 +35,21 @@ ul{
 #copyright{
     margin: 10px 0px;
     color: white;
-    font-size: 12px;
-    
+    font-size: 12px;   
 }
 
 /* 600px or less for tables and phones. */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .col-md-4{
         width:100%;
         align-content: center;
     }
+    footer{
+        position: relative;
+    }
 }
+
+
+/* NEED TO FIX the footer won't stick to the botton 
+withouth messing up the mobile/tablet view angle when geting
+the 404 error. */
