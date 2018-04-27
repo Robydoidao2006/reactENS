@@ -3,13 +3,11 @@ import "./Events.css";
 
 const Events = () => (
 
-<div id="events" className="bg-1">
-  {/* <div className="container text-center"> */}
+<div  className="bg-1">
     <div className="container">
         <h1 className="text-center">ENS Upcoming Events</h1>
     </div>
 
-    <div className="row" id="events">
       <div className="col-sm-2">
         <div className="thumbnail">
             <img className="Boston" src={require('./pic/boston.jpg')} alt="Boston" href="https://www.aace.com/annualmeeting/aace-2018" />
@@ -36,9 +34,9 @@ const Events = () => (
             <button className="btn"><a href="https://www.globalacademycme.com/conferences/meds/register" target="_blank">INFO</a></button>
           </div>
         </div>
-    </div>
+   
 
-    <div className="row" id="events">
+
         <div className="col-sm-2">
           <div className="thumbnail">
             <img className="baltimore" src={require('./pic/baltimore.jpg')} alt="Baltimore" href="http://www.aademeeting.org/" />
@@ -65,8 +63,6 @@ const Events = () => (
             <button className="btn"><a href="http://www.ice2018.org/" target="_blank">INFO</a></button>
           </div>
         </div>
-    </div>
-  {/* </div> */}
 </div>
 
 );
