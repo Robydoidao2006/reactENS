@@ -27,7 +27,10 @@
     letter-spacing: 2px;
     opacity: 0.9;
     width: 100%;
-} 
+    font-family:'Roboto Slab', serif;
+    text-shadow: -1px 0px 10px rgba(0, 0, 0, 1);
+
+}
 
 /* changes words color of navbar */
 .navbar li a, .navbar .navbar-brand {

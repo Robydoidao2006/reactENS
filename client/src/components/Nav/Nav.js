@@ -23,7 +23,7 @@ const Nav = () => (
 
         <li><a href="#myPage">HOME</a></li>
         <li><a href="#band">MEMBERSHIP</a></li>
-        <li><a href="#tour">EVENTS</a></li>
+        <li><a href="#events">EVENTS</a></li>
         <li><a href="#contact">CONTACT</a></li>
 
         <li className="dropdown">

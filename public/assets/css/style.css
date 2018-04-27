@@ -8,9 +8,7 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 
 
 
-#events {
-  width: 100%;
-}
+
 .home {
  font-family: 'Roboto Slab', serif;
   font-size: 30px;
@@ -79,47 +77,14 @@ p {
 }
 
 
-.bg-1 {
-    background: #2d2d30;
-    color: #bdbdbd;
-}
-.bg-1 h3 {color: pink;}
-.bg-1 p {font-style: italic;}
-.list-group-item:first-child {
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-}
+
+
 .list-group-item:last-child {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
-.thumbnail {
-    padding: 15px;
-    outline-style: solid;
-    outline-color:#2d2d30;
-    outline-width:thick;
-    height: 300px;
-    width: 225px;
-    border: 15px;
 
-}
-.thumbnail p {
-    margin-top: 15px;
-    color: black;
-}
-.btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border-radius: 0;
-    transition: .2s;
-    font-family: 'Roboto Slab', serif;
-}
-.btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-}
+
 .modal-header, h4, .close {
     background-color: #333;
     color: #fff !important;
@@ -130,18 +95,12 @@ p {
     padding: 40px 50px;
 }
 
-
-
 #tour {
   background: #70e1f5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width:100%;
 }
-
-
-
-
 
 /* /////////// */
 /* google maps */

@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 import Wrapper from "../../components/Wrapper";
 import Carousel from"../../components/Carousel";
 import Bio from "../../components/Bio";
+import { Container } from "../../components/Grid/Container";
+import Events from "../../components/Events";
 
 
 
@@ -18,9 +20,10 @@ render() {
    
         <Wrapper>
             <Nav />
-            <Carousel />
-            <Bio />
-            {/* <Contact /> */}
+              <Carousel />
+                <Container />
+                   <Events />
+                    <Bio />
           <Footer /> 
         </Wrapper>
         
