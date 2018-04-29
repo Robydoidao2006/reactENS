@@ -1,20 +1,39 @@
 .carousel-inner img {
-  -webkit-filter: grayscale(50%);
-  filter: grayscale(70%); /* make all photos black and white */
+  /* -webkit-filter: grayscale(50%);
+  filter: grayscale(70%); /* make all photos black and white */ 
   width: 100%; /* Set width to 100% */
   margin: auto;
   background-blend-mode: lighten;
+}
+.carousel-caption {
+  margin-bottom: 90px;
 }
 .carousel-caption h3 {
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 2px;
-  margin-top: 20px;
+  /* margin-bottom: 100px; */
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color:black;
+text-shadow: 2px 2px 6px rgba(42, 38, 10, 1);
+  /* -webkit-text-stroke-color:black; */
 }
-
+.CarouselText {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px rgba(42, 38, 10, 1);
+  /* margin-top: 20px; */
+  color: white;
+}
+.CarouselTitle {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  /* margin-top: 20px; */
+  color: white;
+  text-shadow: 2px 2px 6px rgba(42, 38, 10, 1);
+}
 img {
   width: 100%;
 
@@ -33,14 +52,13 @@ img {
     font-size: 10px;
     font-weight: 100;
     -webkit-text-stroke-width: 1px;
-    
+
   }
   .carousel-inner img{
     margin-top: 50px;
   }
+  .carousel-caption {
+    margin-bottom: 10px;
+  }
 
 }
-
-
-
-

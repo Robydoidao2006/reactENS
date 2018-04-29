@@ -1,12 +1,4 @@
 
-
-/* .container-fluid {
-    background: #2d2d30;
-    font-size: 14px !important;
-    letter-spacing: 2px;
-} */
-
-
 /* changes logo size and */
 .navbar-brand{
     width:40px;
@@ -71,22 +63,12 @@
 
 
 /* 600px or less for  phones. */
-
-/* @media only screen and (min-width: 600px) {
-    .navbar{
-        font-size: 10px !important;
-
+@media only screen and (max-width: 768px) {
+    .navbar-collapse  {
+        margin-top: 50px;
     }
 }     
 
-/* 768px or less for tablets */
 
-
-/* @media only screen and (max-width: 768px) {
-    .navbar{
-        font-size: 10px !important;
-          
-    }
-}   */
 
 

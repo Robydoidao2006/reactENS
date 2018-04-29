@@ -1,10 +1,11 @@
 import React, { Component} from "react";
 import { Link } from "react-router-dom";
-import Wrapper from "../../components/Wrapper";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
+import Wrapper from "../../components/Wrapper";
+import Links from "../../components/Links";
 
-class Home extends Component {
+class HelpfulLinks extends Component {
     state = {
     
     };
@@ -14,8 +15,8 @@ render() {
    
         <Wrapper>
             <Nav />
-
-          <Footer />
+                <Links />
+                    <Footer />
         </Wrapper>
         
     );
@@ -24,4 +25,4 @@ render() {
 }
 
 
-export default Page3;
+export default HelpfulLinks;

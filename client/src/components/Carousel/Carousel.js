@@ -13,7 +13,7 @@ const Carousel = () => (
 
       <div className="carousel-inner" role="listbox" id="slide1">
         <div className="item active">
-          <img src={require('./bc_background.png')}/>
+          <img src={require('./images/NursePic01.jpg')}/>
           <div className="carousel-caption">
             <h3 className="CarouselTitle">Mission</h3>
             <h3 className="CarouselText">ENS is a professional organization for endocrine nurses founded to promote excellence in the clinical care of patients through advancement of the science and art of endocrine nursing.</h3>
@@ -21,7 +21,7 @@ const Carousel = () => (
         </div>
 
         <div className="item">
-        <img src={require('./bc_background.png')}/>
+        <img src={require('./images/NursePic02.jpg')}/>
           <div className="carousel-caption">
             <h3 className="CarouselTitle">Goals</h3>
             <h3 className="CarouselText">Professional development, facilitate communication,
@@ -32,7 +32,7 @@ const Carousel = () => (
         </div>
 
         <div className="item">
-          <img src={require('./bc_background.png')}/>
+          <img src={require('./images/ENSpic3.jpg')}/>
           <div className="carousel-caption">
             <h3 className="CarouselTitle">Growth</h3>
             <h3 className="CarouselText">Membership is open to nurses and other professionals who are interested in exploring the world of endocrinology.</h3>

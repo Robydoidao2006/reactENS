@@ -3,7 +3,7 @@ import "./Events.css";
 
 const Events = () => (
 
-<div  className="bg-1">
+<div  className="bg-1" id="newEvents" >
     <div className="container">
         <h1 className="text-center">ENS Upcoming Events</h1>
     </div>
@@ -35,8 +35,6 @@ const Events = () => (
           </div>
         </div>
    
-
-
         <div className="col-sm-2">
           <div className="thumbnail">
             <img className="baltimore" src={require('./pic/baltimore.jpg')} alt="Baltimore" href="http://www.aademeeting.org/" />

@@ -15,21 +15,20 @@ class Home extends Component {
     
     };
 
-render() {
-    return (
-   
-        <Wrapper>
-            <Nav />
-              <Carousel />
-                <Container />
-                   <Events />
-                    <Bio />
-          <Footer /> 
-        </Wrapper>
-        
-    );
-}
-
+    render() {
+        return (
+    
+            <Wrapper>
+                <Nav />
+                    <Carousel />
+                        <Container />
+                            <Events />
+                                <Bio />
+                                    <Footer /> 
+            </Wrapper>
+            
+        );
+    }
 }
 
 

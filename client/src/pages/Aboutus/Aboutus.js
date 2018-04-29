@@ -1,10 +1,11 @@
 import React, { Component} from "react";
 import { Link } from "react-router-dom";
-import Wrapper from "../../components/Wrapper";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
+import Wrapper from "../../components/Wrapper";
+import About from "../../components/About";
 
-class Home extends Component {
+class Aboutus extends Component {
     state = {
     
     };
@@ -14,7 +15,7 @@ render() {
    
         <Wrapper>
             <Nav />
-
+             <About />
           <Footer />
         </Wrapper>
         
@@ -24,4 +25,4 @@ render() {
 }
 
 
-export default Page3;
+export default Aboutus;
