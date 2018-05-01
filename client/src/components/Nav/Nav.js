@@ -5,7 +5,7 @@ import "./Nav.css";
 const Nav = () => (
   
 <nav className="navbar navbar-default navbar-fixed-top">
-  <div className="navbar-brand"><img src={require('./ensSmall.png')}/>
+  <div className="navbar-brand">
   </div>
     <div className="container-fluid">
       <div className="navbar-header">

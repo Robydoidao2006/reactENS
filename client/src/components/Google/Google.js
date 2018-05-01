@@ -1,13 +1,30 @@
-import React from "react";
-import ReactDOM from 'react-dom';
-import GoogleLogin from 'react-google-login';
-import "./Google.css";
+import React, { Component } from 'react'
+import GoogleMapReact from 'google-map-react'
+import "./Google.css"
 
 
 
-const Google = (response) => {
+const AnyReactComponent = ({ text }) => <div>{ text }</div>;
 
-  );
+export default class Map extends Component {
+  static defaultProps = {
+    center: { lat: 40.7446790, lng: -73.9485420 },
+    zoom: 11
+  }
+render() {
+    return (
+      <div className='google-map'>
+        <GoogleMapReact
+          defaultCenter={ this.props.center }
+          defaultZoom={ this.props.zoom }>
+          <AnyReactComponent
+            lat={ 40.7473310 }
+            lng={ -73.8517440 }
+            text= { 'hello'}
 
-  
-export default Google;
+          />
+        </GoogleMapReact>
+      </div>
+    )
+  }
+}

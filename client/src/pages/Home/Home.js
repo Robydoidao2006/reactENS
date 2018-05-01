@@ -7,6 +7,7 @@ import Carousel from"../../components/Carousel";
 import Bio from "../../components/Bio";
 import { Container } from "../../components/Grid/Container";
 import Events from "../../components/Events";
+import Map from "../../components/Google";
 
 
 
@@ -23,8 +24,10 @@ class Home extends Component {
                     <Carousel />
                         <Container />
                             <Events />
-                                <Bio />
-                                    <Footer /> 
+                                <Map />
+                                    <Bio />
+                                        <Footer /> 
+                                    
             </Wrapper>
             
         );
